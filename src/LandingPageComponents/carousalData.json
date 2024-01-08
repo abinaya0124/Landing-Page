@@ -1,0 +1,26 @@
+[
+  {
+    "img": "header1",
+    "title": "A power-packed solution to streamline all educational and institutional processes.",
+    "subTitle": "Campus Tech is a robust solution packed with best-in-class software, consulting, audits, and empowerment activities rolled into one for your institution.",
+    "btn": "Get a Demo"
+  },
+  {
+    "img": "header2",
+    "title": "Enables efficient segregation of tasks",
+    "subTitle": "Campus Tech presents you with multiple dashboards to review the status of various accreditation tasks, including the tasks that are overdue, non-compliant, or need attention.",
+    "btn": "Accreditation & Compliance"
+  },
+  {
+    "img": "header3",
+    "title": "Helps cater to accreditation requirements",
+    "subTitle": "Campus Tech has created an associated full-fledged and robust campus automation software along with a dedicated mobile app for students that can cater to multiple accreditation and compliance requirements.",
+    "btn": "Accreditation & Compliance"
+  },
+  {
+    "img": "header4",
+    "title": "Live reports and comparative analysis made available        ",
+    "subTitle": "Get live reports on data added for multiple accreditations, AI-based alerts for tracking of tasks assigned and completed.",
+    "btn": "Exam Management System"
+  }
+]

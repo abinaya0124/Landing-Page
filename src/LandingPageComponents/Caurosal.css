@@ -1,0 +1,191 @@
+.carousalSec {
+  height: 65vh;
+  /* font-family: 'Forma DJR Deck'; */
+}
+.carousel .carousel-control-next-icon.changed {
+  position: absolute;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #000000 !important;
+}
+.carousel .carousel-control-previous-icon.changed {
+  position: absolute;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #000000 !important;
+}
+.carousel-control-next {
+  position: relative;
+  top: 35rem !important;
+  left: 88%;
+}
+.carousel-control-next-icon {
+  position: absolute;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #000000 !important;
+}
+.carousel-control-prev {
+  position: relative;
+  top: 35rem !important;
+  left: 85% !important;
+  color: #000000 !important;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  z-index: 9;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #000000 !important;
+}
+@media screen and (max-width: 767px) {
+  .carousel-control-next {
+    margin-top: 16rem !important;
+    left: 85% !important;
+  }
+  .carousel-control-prev {
+    margin-top: 16rem !important;
+    left: 70% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .carousel-control-next {
+    margin-top: -4rem !important;
+    left: 85% !important;
+  }
+  .carousel-control-prev {
+    margin-top: -4rem !important;
+    left: 80% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel-indicators button {
+    left: -63%;
+  }
+}
+.carousel-indicators button {
+  position: relative;
+  background: #d9d9d9 !important;
+  border-radius: 50%;
+  top: 5rem;
+  right: 67%;
+  width: 18px !important;
+  height: 0px !important;
+}
+@media screen and (max-width: 424px) {
+  .carousel-indicators button {
+    left: -50%;
+    top: 24.5rem;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .carousel-indicators button {
+    left: -55%;
+    top: 24.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .carousel-indicators button {
+    left: -63%;
+    top: 6.5rem;
+  }
+}
+.carousel-indicators button.active {
+  background: #ea4722 !important;
+}
+/* .carousalImg {
+  width: 500px !important;
+  object-fit: contain !important;
+} */
+.header1Ch{
+  margin-top:5rem;
+}
+@media screen and (max-width: 1024px) {
+  .header1Ch{
+    margin-top:0rem;
+  }
+}
+.header2Ch{
+  margin-top:5rem;
+}
+@media screen and (max-width: 1024px) {
+  .header2Ch{
+    margin-top:0rem;
+  }
+}
+.header3Ch{
+  margin-top:6rem;
+}
+@media screen and (max-width: 1024px) {
+  .header3Ch{
+    margin-top:0rem;
+  }
+}
+.header1C{
+  width:300px !important;
+  height:400px !important;
+  object-fit: contain;
+}
+@media screen and (max-width: 1024px) {
+  .header1C{
+    width:100px !important;
+    height:200px !important;
+    object-fit: contain;
+  }
+}
+.marginTop {
+  margin-top: 75px;
+}
+
+.bgColor {
+  background-color: #f8f7f7;
+}
+.fontWeight {
+  font-weight: bold;
+}
+.fontSize {
+  font-size: 20px;
+}
+.marginTop2 {
+  margin-top: 20rem;
+}
+.textColor {
+  color: #ea4722;
+}
+.img__sliding {
+  object-fit: contain;
+}
+.fontWeight6 {
+  font-weight: 700;
+}
+.fontSize5 {
+  font-size: 47px;
+}
+@media screen and (max-width:768px) {
+  .fontSize5 {
+    font-size: 37px;
+  }
+}
+.fontWeight5 {
+  font-weight: 400;
+}
+.fontSize6 {
+  font-size: 20px;
+}
+.bgColor2 {
+  background: #30a981;
+}
+.textColor4 {
+  color: #ffffff;
+}
+.borderBox {
+  height: 0.8rem;
+  width: 50%;
+  background-color: #edaa20;
+  margin: 6rem 0 0 0;
+}
+@media screen and (max-width: 767px) {
+  .borderBox {
+    margin-top: 20rem;
+  }
+}

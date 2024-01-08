@@ -1,0 +1,121 @@
+.custom-scrollbar-wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #32a981 #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-scrollbar-wrapper::-webkit-scrollbar {
+  width: 12px;
+  height: 1rem;
+}
+
+.custom-scrollbar-wrapper::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+  height: 1rem;
+}
+
+.custom-scrollbar-wrapper::-webkit-scrollbar-thumb {
+  background-color: #32a981;
+  border-radius: 6px;
+  height: 1rem;
+}
+.custom-scrollbar-wrapper::-webkit-scrollbar-track {
+  height: 1rem;
+}
+
+.headerNav {
+  margin-top: 1rem;
+}
+.headerNavText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.dropdown-toggle::after {
+  content: "";
+  border: 0 !important;
+  background-image: url("./arrowDown.svg");
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  vertical-align: 0 !important;
+  padding-top:1rem !important;
+}
+.logoWidth {
+  width: 250px;
+}
+@media screen and (max-width: 425px) {
+  .logoWidth {
+    width: 200px;
+  }
+}
+.marginTop3 {
+  margin-top: 4rem;
+}
+.cardsBox {
+  width: 18rem;
+  border: none !important;
+  margin-right: 9rem;
+}
+.imgCard {
+  width: 60px !important;
+  margin-left: 1rem;
+}
+.textColor5 {
+  color: #e94724;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  white-space: nowrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.textDetails {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 160%;
+  margin: 0 !important;
+}
+
+.textDetails .card-text {
+  margin: 0 !important;
+  width: 20% !important;
+}
+@media screen and (max-width: 425px) {
+  .textDetails {
+    width: 100%;
+  }
+}
+.cardsAcc {
+  margin-left: -0.2rem;
+}
+
+.cardButton {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #000000;
+  margin-top: 1.5rem;
+}
+.fontWeight4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.heading {
+  font-size: 50px;
+  line-height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.learn {
+  color: #ea4722;
+}
