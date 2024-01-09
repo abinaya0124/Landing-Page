@@ -8,7 +8,7 @@ const Section5 = () => {
       <Container fluid >
         <Row >
           <Col className="contact__Us">
-            <h3 className="fontSize1 fontWeight1">
+            <h3 className="fontSize1 fw-bold">
               Ready to give your
               <span className="textColor1">
                 <br /> institution an
@@ -16,7 +16,7 @@ const Section5 = () => {
                 upgrade?
               </span>
             </h3>
-            <button className="bgColor2 border-0 rounded-pill px-3 py-2 mt-4 textColor4 fontWeight2 fontSize4">
+            <button className="bgColor2 border-0 rounded-pill px-3 py-2 mt-4 textColor4 fontSize4">
               Contact Us
             </button>
           </Col>

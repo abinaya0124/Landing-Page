@@ -47,14 +47,14 @@ const Section3 = () => {
         style={{ top: "-5rem" }}
       />
       <div className="bgColor marginTop">
-        <Container className="p-md-5 pe-0 ps-0">
+        <Container className="pt-md-5 pb-md-5 pe-0 ps-0">
           <Row className="pt-md-1 me-0">
             <Col>
               <h3 className="pt-5 ps-2 pe-2 pe-md-0 ps-md-0 pt-md-0 mt-5 mt-md-0 fontSize1 fw-bold">
                 Why your educational <br/> <span> </span>
                 <span className="section3">institution needs <br/> Campus Tech</span>
               </h3>
-              <button className="mt-3 ms-2 ms-md-3 bgColor2 border-0 rounded-pill px-3 py-2 mt-4 textColor4 fontWeight2 fontSize4">About Us</button>
+              <button className="mt-3 ms-2 ms-md-0 bgColor2 border-0 rounded-pill px-3 py-2 mt-4 textColor4 fontSize4">About Us</button>
             </Col>
           <Col className="d-lg-flex ms-2 ms-md-0 pb-4 pb-md-0 me-2 me-md-0 ">
             <Col className="mt-4 mt-md-3 aboutUS">

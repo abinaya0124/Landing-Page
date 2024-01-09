@@ -8,7 +8,7 @@ import "./Section4.css";
 
 const Section6 = () => {
   return (
-    <section className="bgColor3 marginTop2 paddingTop2 fontWeight2 fontSize4">
+    <section className="bgColor3 marginTop2 paddingTop2 fontSize4">
       <Container>
         <Row>
           <Col>
@@ -52,4 +52,3 @@ const Section6 = () => {
 };
 
 export default Section6;
-//fontweight2 fontSize4

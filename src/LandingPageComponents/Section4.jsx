@@ -39,11 +39,11 @@ const Section4 = () => {
                 <h4
                   className={`${
                     item.num % 2 === 0 ? "textColor2" : "textColor3"
-                  } fontWeight1 fontSize2 mt-3 `}
+                  } fontSize2 mt-3 `}
                 >
                   {item.num}
                 </h4>
-                <p className="fontWeight1 fontSize3">{item.subtitle}</p>
+                <p className=" fontSize3">{item.subtitle}</p>
               </Col>
             ))}
           </Col>

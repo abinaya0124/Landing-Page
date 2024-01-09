@@ -70,22 +70,46 @@ const Section1Carousal = () => {
                   <Row>
                     <Col className="d-md-flex justify-content-center align-items-center ">
                       <Col>
-                        <h1
-                          className={` ${
-                            item.img === "header1"
-                              ? "header1Ch"
-                              : item.img === "header2"
-                              ? "header2Ch"
-                              : item.img === "header3"
-                              ? "header3Ch"
-                              : item.img === "header4"
-                              ? "header4Ch"
-                              : ""
-                          } fw-bold fontSize5`}
-                        >
-                          {item.title}
+                        <h1 className="">
+                          {item.img === "header1" ? (
+                            <p className="header1Ch fw-bold fontSize5">
+                              A power-packed solution to streamline all
+                              educational and
+                              <span className="redStyle">
+                                {" "}
+                                institutional processes
+                              </span>
+                            </p>
+                          ) : item.img === "header2" ? (
+                            <p className="header2Ch fw-bold fontSize5">
+                              Enables
+                              <span className="redStyle">
+                                {" "}
+                                efficient segregation
+                              </span>
+                              {" "} of tasks
+                            </p>
+                          ) : item.img === "header3" ? (
+                            <p className="header3Ch fw-bold fontSize5">
+                              Helps cater to
+                              <span className="redStyle">
+                                {" "}
+                                accreditation requirements
+                              </span>
+                            </p>
+                          ) : item.img === "header4" ? (
+                            <p className="header4Ch fw-bold fontSize5">
+                              <span className="redStyle">Live reports</span> and{" "}
+                              <span className="redStyle">
+                                comparative analysis
+                              </span>
+                              made available
+                            </p>
+                          ) : (
+                            ""
+                          )}
                         </h1>
-                        <p className="fontWeight5 fontSize6 mt-4">
+                        <p className=" fontSize6 mt-4">
                           {item.subTitle}
                         </p>
                         <button className="bgColor2 py-2 px-3 rounded-pill textColor4 border-0 mt-3">

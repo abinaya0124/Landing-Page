@@ -98,7 +98,10 @@
   object-fit: contain !important;
 } */
 .header1Ch{
-  margin-top:5rem;
+  margin-top:6rem;
+}
+.redStyle{
+  color: #EA4722;
 }
 @media screen and (max-width: 1024px) {
   .header1Ch{
@@ -140,9 +143,7 @@
 .bgColor {
   background-color: #f8f7f7;
 }
-.fontWeight {
-  font-weight: bold;
-}
+
 .fontSize {
   font-size: 20px;
 }
@@ -155,9 +156,7 @@
 .img__sliding {
   object-fit: contain;
 }
-.fontWeight6 {
-  font-weight: 700;
-}
+
 .fontSize5 {
   font-size: 47px;
 }
@@ -166,9 +165,7 @@
     font-size: 37px;
   }
 }
-.fontWeight5 {
-  font-weight: 400;
-}
+
 .fontSize6 {
   font-size: 20px;
 }

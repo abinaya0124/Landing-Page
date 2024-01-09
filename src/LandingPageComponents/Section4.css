@@ -14,12 +14,6 @@
   background: #30a981;
 }
 
-.fontWeight2 {
-  font-weight: 400;
-}
-.fontWeight3 {
-  font-weight: 500;
-}
 .fontSize1 {
   font-size: 50px;
 }
@@ -41,9 +35,7 @@
 .fontSize3 {
   font-size: 22px;
 }
-.fontSize4 {
-  font-size: 20px;
-}
+
 .bgColor1 {
   background-color: #f8f7f7;
 }
